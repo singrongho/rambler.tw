@@ -1,0 +1,8 @@
+[module]
+[module.hugoVersion]
+extended = true
+min = "0.124.1"
+max = "0.124.1"
+baseURL = "https://singrongho.github.io/"
+languageCode = "en"
+themes = "blowfish"
