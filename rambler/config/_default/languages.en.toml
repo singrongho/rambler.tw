@@ -1,0 +1,22 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "rambler.tw"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 Jan 2006"
+  logo = "img/singrong.png"
+  description = "🌍 Rambling Around."
+
+[author]
+  name = "SingRong the rambler"
+  image = "img/singrong.png"
+  headline = "🌍 Rambling Around"
+  bio = ""
+  links = [
+    { Instagram = "https://www.instagram.com/rambler.tw/" },
+    { LinkedIn = "https://www.linkedin.com/in/singrong-ho/" },
+  ]

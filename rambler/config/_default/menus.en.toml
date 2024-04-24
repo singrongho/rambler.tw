@@ -1,0 +1,116 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "關於我"
+  pageRef = "home"
+  weight = 5
+
+[[main]]
+  name = "旅行"
+  weight = 10
+
+[[main]]
+  name = "亞洲 - 日本"
+  parent = "旅行"
+  pageRef = ""
+  weight = 11
+
+[[main]]
+  name = "亞洲 - 韓國"
+  parent = "旅行"
+  pageRef = ""
+  weight = 12
+
+[[main]]
+  name = "亞洲 - 泰國"
+  parent = "旅行"
+  pageRef = ""
+  weight = 13
+
+[[main]]
+  name = "亞洲 - 越南"
+  parent = "旅行"
+  pageRef = ""
+  weight = 14
+
+[[main]]
+  name = "歐洲 - 奧地利"
+  parent = "旅行"
+  pageRef = "EU-Astria"
+  weight = 22
+
+##### 
+
+[[main]]
+  name = "語言"
+  weight = 60
+
+[[main]]
+  name = "英文聽力"
+  parent = "語言"
+  pageRef = "英文聽力"
+  weight = 61
+
+[[main]]
+  name = "英文閱讀"
+  parent = "語言"
+  pageRef = "samples"
+  weight = 62
+
+[[main]]
+  name = "TOEIC"
+  parent = "語言"
+  pageRef = "samples"
+  weight = 63
+
+##### 
+
+[[main]]
+  name = "學習"
+  weight = 70
+
+[[main]]
+  name = "程式語言"
+  parent = "學習"
+  pageRef = "samples"
+  weight = 72
+
+[[main]]
+  name = "講師之路"
+  parent = "學習"
+  pageRef = "samples"
+  weight = 73
+
+##### 
+
+[[main]]
+  name = "標籤"
+  pageRef = "tags"
+  weight = 100
+
+[[main]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://www.instagram.com/rambler.tw/"
+  weight = 200
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ #[[footer]]
+  # name = "Tags"
+  # pageRef = "tags"
+  # weight = 10
+
